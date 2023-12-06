@@ -4,6 +4,6 @@ curl -H "X-Requested-With: XMLHttpRequest" https://exch.cx/api/volume
 
 curl -H "X-Requested-With: XMLHttpRequest" https://exch.cx/api/status
 
-curl -H "X-Requested-With: XMLHttpRequest" -X POST https://exch.cx/api/create -d 'from_currency=BTC&to_currency=ETH&to_address={{address}}'
+curl -H "X-Requested-With: XMLHttpRequest" -X POST https://exch.cx/api/create -d 'from_currency=XMR&to_currency=ETH&to_address={{address}}'
 
 curl -H "X-Requested-With: XMLHttpRequest" -X POST https://exch.cx/api/order -d 'orderid={{orderid}}'
